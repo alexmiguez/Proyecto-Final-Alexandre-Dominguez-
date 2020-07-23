@@ -1,0 +1,43 @@
+Bienvenidos
+Esta en la API del proyecto saman_caribbean, en el siguiente url:
+https://saman-caribbean.vercel.app/api/cruise-ships
+Usando la librería request de python realizaran una petición GET a dicho URL el cual les devolverá un array de json (diccionario), dichos diccionarios tiene la siguiente estructura:
+
+{
+  "name": "String",
+  "route": [
+    "String"
+  ],
+  "departure": "Fecha en formato ISO",
+  "cost": {
+    "simple": "Float",
+    "premium": "Float",
+    "vip": "Float"
+  },
+  "rooms": {
+    "simple": [
+      "Int",
+      "Int"
+    ],
+    "premium": [
+      "Int",
+      "Int"
+    ],
+    "vip": [
+      "Int",
+      "Int"
+    ]
+  },
+  "capacity": {
+    "simple": "Int",
+    "premium": "Int",
+    "vip": "Int"
+  },
+  "sells": [
+    {
+      "name": "String",
+      "price": "Float",
+      "amount": "Int"
+    }
+  ]
+}

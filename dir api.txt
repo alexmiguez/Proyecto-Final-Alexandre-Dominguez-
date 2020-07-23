@@ -1,0 +1,2 @@
+https://saman-caribbean.vercel.app/
+https://saman-caribbean.vercel.app/api/cruise-ships
